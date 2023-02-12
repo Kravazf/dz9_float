@@ -5,10 +5,95 @@
 body {
     max-width: 1950px;
     background: #e5e5e5;
-    margin: 0 auto;
+    margin: 50px auto;
     padding: 0 15px;
     color: #fff;
     font-family: 'Roboto',Arial, Helvetica, sans-serif;
     font-weight: 700;
     font-size: 64px;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    background-color: #c4c4c4;
+}
+
+.nav1 {
+    padding: 25px 50px;
+    overflow: hidden;
+}
+
+.menu1 {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background-color: #e6e6e6;
+    overflow: hidden;
+}
+
+.menu1 :first-child {
+    width: 200px;
+    height: 200px;
+    background-color: #fc8f8f;   
+    float: left;
+}
+
+.menu1 :last-child {
+    background-color: #fc8f8f;
+    float: right;
+}
+
+.text1 {
+    margin: 0 auto;
+    padding-top: 63px;
+    text-align: center;
+}
+
+
+
+
+.nav2 {
+    padding: 25px 50px; 
+}
+
+.menu2 {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background-color: #e6e6e6;
+    max-width: 1100px;
+    overflow: hidden;
+}
+
+.boxleft {
+    margin: 0;
+    width: 200px;
+    height: 200px;
+    background-color: #fc8f8f;
+    margin-right: 340px;
+}
+
+.boxright {
+    margin: 0;
+    width: 100px;
+    height: 100px;
+    background-color: #fc8f8f;
+}
+
+.text2 {
+    margin: 0;
+    padding-top: 31px;
+    max-width: 100px;
+    max-height: 37.5px;
+    text-align: center;
+    font-size: 36px;
+}
+
+.menu2 > li {
+    float: left;
+}
+
+.menu2 :nth-child(n+2) {
+    margin-left: 15px;
 }
