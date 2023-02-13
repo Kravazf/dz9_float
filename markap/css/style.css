@@ -19,11 +19,18 @@ body {
     background-color: #c4c4c4;
 }
 
-.nav1 {
-    padding: 25px 50px;
+.bgcont {
+    padding: 25px 50px; 
+    background-color: #c4c4c4;
+    max-width: 1100px;
 }
 
-.menu1 {
+.paddingcont {
+    overflow: hidden;
+    background-color: #e6e6e6;
+}
+
+.menu {
     margin: 0;
     padding: 0;
     list-style: none;
@@ -31,14 +38,15 @@ body {
     overflow: hidden;
 }
 
-.menu1 :first-child {
-    max-width: 200px;
+.boxleft1 {
+    width: 200px;
     min-height: 200px;
     background-color: #fc8f8f;   
     float: left;
 }
 
-.menu1 :last-child {
+.boxright1 {
+    width: 200px;
     min-height: 200px;
     background-color: #fc8f8f;
     float: right;
@@ -46,37 +54,42 @@ body {
 
 .text1 {
     width: 200px;
-    min-height: 200px;
+    min-height: 75px;
     margin: 0 auto;
     padding-top: 63px;
     text-align: center;
+    
 }
 
-.nav2 {
-    padding: 25px 50px; 
+.menu1 {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        float: left;
 }
 
 .menu2 {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    background-color: #e6e6e6;
-    max-width: 1100px;
-    overflow: hidden;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        float: right;
 }
 
-.boxleft {
-    max-width: 200px;
+
+
+.boxleft2 {
+    width: 200px;
     min-height: 200px;
     background-color: #fc8f8f;
-    margin-right: 340px;
+    display: inline-block;
 }
 
-.boxright {
+.boxright2 {
     margin: 0;
     width: 100px;
     min-height: 100px;
     background-color: #fc8f8f;
+    display: inline-block;
 }
 
 .text2 {
@@ -88,42 +101,35 @@ body {
     font-size: 36px;
 }
 
-.menu2 > li {
-    float: left;
-}
-
-.menu2 :nth-child(n+2) {
+.menu2  :nth-child(n+2){
     margin-left: 15px;
-}
-
-.nav3 {
-    padding: 25px 50px; 
 }
 
 .menu3 {
     margin: 0;
     padding: 0;
     list-style: none;
-    background-color: #e6e6e6;
-    max-width: 1100px;
-    overflow: hidden;
-}
-
-.boxleft2 {
-    width: 200px;
-    height: 200px;
-    
-}
-
-.menu3 > li {
     float: left;
+}
+
+.menu4 {
+    margin: 0;
+    padding: 0;
+    list-style: none; 
+    float: right;
+}
+
+.boxleft3, .boxright3 {
+    display: inline-block;
+    width: 200px;
+    min-height: 200px;
     background-color: #fc8f8f;
 }
 
-.menu3 :nth-child(3) {
-    margin-left: 170px;
+.menu3 :nth-child(even) {
+    margin-left: 15px;
 }
 
-.menu3 :nth-child(even) {
+.menu4 :nth-child(even) {
     margin-left: 15px;
 }
